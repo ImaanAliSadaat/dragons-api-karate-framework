@@ -3,11 +3,13 @@
 	<groupId>dragons-api-karate</groupId>
 	<artifactId>dragons-api-karate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Dragons karate Framwork</name>
+	<name>Dragons Karate Framework</name>
+
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.intuit.karate</groupId>

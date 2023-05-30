@@ -38,7 +38,7 @@ Feature: Create Account Test
     When method post
     Then status 201
     And print response
-    And assert response.email == "shokriyan_karate3@tekschool.us"
+    And assert response.email == "shokriyan_karat445@tekschool.us"
     #Delete created account
     Given path "/api/accounts/delete-account"
     And header Authorization = "Bearer " + generatedToken
